@@ -1,14 +1,15 @@
 function setup()
- {
-  createCanvas(800, 600);
-  
-  stroke(255,255,255,50);
+{
+  createCanvas(800,600);
+  noFill();
+  stroke(255,0,0);
 
+}
 
-  background(174,138,184);
-  fill(255,255,255,50);
- 
-  rect(50, 100, 100,100);}
- 
+function draw()
+{
+  background(0);
+  ellipse(400,300,mouseX,mouseY);
+}
 
 
